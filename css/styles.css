@@ -350,11 +350,13 @@ img {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-form-field:focus {
+.hero-form-field:focus,
+.hero-form-field:hover {
   border-color: var(--accent-color);
 }
 
-.hero-form-field:focus + .hero-form-icon {
+.hero-form-field:focus + .hero-form-icon,
+.hero-form-field:hover + .hero-form-icon {
   fill: var(--accent-color);
 }
 
@@ -380,7 +382,8 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-form-textarea:focus {
+.hero-form-textarea:focus,
+.hero-form-textarea:hover {
   border-color: var(--accent-color);
 }
 
